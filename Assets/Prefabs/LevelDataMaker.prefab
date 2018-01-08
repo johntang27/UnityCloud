@@ -1,0 +1,396 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1800788364321986}
+  m_IsPrefabParent: 1
+--- !u!1 &1800788364321986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4741473044830332}
+  - component: {fileID: 114659989377194922}
+  m_Layer: 0
+  m_Name: LevelDataMaker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4741473044830332
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800788364321986}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114659989377194922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800788364321986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09b02cfb912ad4743a63ae89fb47dce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: LevelData
+  levelData:
+  - levelID: 1
+    levelName: Tutorial 1
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 45
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 0
+    tiles: 020000000100000007000000
+    retirementDream: 0
+    minimumScore: 100
+    levelDescription: Emma has a new job and is ready to take on the world. She feels
+      really good about retiring really early, and she probably doesn't even need
+      your help...
+    isTutorial: 1
+    tutorialDescription: how to make money (match income tiles)
+    previousLevelID: 0
+  - levelID: 2
+    levelName: Tutorial 2
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 0
+    tiles: 02000000010000000700000004000000
+    retirementDream: 0
+    minimumScore: 100
+    levelDescription: 'Emma was super wrong. She does need your help. This time, help
+      her save some of her money over her life. '
+    isTutorial: 1
+    tutorialDescription: All investment products have multipliers
+    previousLevelID: 1
+  - levelID: 3
+    levelName: Bigger Dreams
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 0
+    tiles: 02000000010000000700000004000000
+    retirementDream: 0
+    minimumScore: 100
+    levelDescription: Olivia has big dreams for her future, but she isn't sure how
+      to get there. Help her make her dreams come true.
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 2
+  - levelID: 4
+    levelName: What's an Annuity?
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 0
+    tiles: 02000000010000000700000005000000
+    retirementDream: 0
+    minimumScore: 100
+    levelDescription: Noah's parents forced him to open an annuity, but he's not really
+      sure what it is. Help him take advantage of it so that he can retire in peace.
+    isTutorial: 1
+    tutorialDescription: annuity turns into income per year after retirement
+    previousLevelID: 3
+  - levelID: 401
+    levelName: 'Challenge: Retire Early'
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 60
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 0
+    tiles: 02000000010000000500000004000000
+    retirementDream: 0
+    minimumScore: 100
+    levelDescription: Sophia, help desk hero, is dead set on retiring early and running
+      off to live in nature, where she never will have to deal with people again.
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 4
+  - levelID: 5
+    levelName: Using Your Options
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 0
+    tiles: 02000000010000000500000004000000
+    retirementDream: 1
+    minimumScore: 100
+    levelDescription: Ana knows she wants a large house in the countryside, and is
+      willing to do what it takes to save up for it. Help her reach her dream.
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 4
+  - levelID: 501
+    levelName: 'Challenge: Late Start'
+    timeMode: 0
+    startingAge: 27
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 0
+    tiles: 02000000010000000700000005000000
+    retirementDream: 1
+    minimumScore: 100
+    levelDescription: Liam hasn't thought about saving for retirement at all. Is it
+      too late to start?
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 5
+  - levelID: 6
+    levelName: Matchmaker
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 2
+    tiles: 02000000010000000700000004000000
+    retirementDream: 2
+    minimumScore: 100
+    levelDescription: Mason's new employer will match part of his savings each year.
+      He hopes this will help him move into a nice apartment in the city.
+    isTutorial: 1
+    tutorialDescription: First 2 investment tiles matched each year are doubled.
+    previousLevelID: 5
+  - levelID: 601
+    levelName: 'Challenge: Matching an Annuity'
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 2
+    tiles: 02000000010000000500000004000000
+    retirementDream: 2
+    minimumScore: 100
+    levelDescription: 'Isabella just moved to the city and she knows she never ever
+      wants to leave. Help her save enough to stay for the rest of her life. '
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 6
+  - levelID: 602
+    levelName: 'Challenge: Early Luxury'
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 59
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 0
+    tiles: 02000000010000000500000004000000
+    retirementDream: 2
+    minimumScore: 100
+    levelDescription: 'Jacob loves friends, parties, food, and nightlife, but his
+      job keeps getting in the way. His new plan is to retire early so that he can
+      focus on the fun. '
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 601
+  - levelID: 7
+    levelName: Better Choices
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 0
+    tiles: 02000000010000000700000005000000
+    retirementDream: 3
+    minimumScore: 100
+    levelDescription: 'The more Mia travels, the more she wants to visit every corner
+      of the world. Her dream is expensive, but with your help, it may be attainable. '
+    isTutorial: 1
+    tutorialDescription: 'TIAA Annuity: bonus payment. The sooner you start, the bigger
+      the bonus.'
+    previousLevelID: 6
+  - levelID: 701
+    levelName: 'Challenge: Abundant Annuities'
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 0
+    tiles: 020000000100000005000000
+    retirementDream: 3
+    minimumScore: 100
+    levelDescription: 'Will never paid attention to opening retirement accounts, but
+      his parents did help him invest in an annuity. He just wants to see the world. '
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 7
+  - levelID: 702
+    levelName: 'Challenge: Nonstop '
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 50
+    baseSalary: 100000
+    studentLoan: 0
+    employerMatch: 0
+    tiles: 02000000010000000500000004000000
+    retirementDream: 3
+    minimumScore: 100
+    levelDescription: Emily has an amazing job, but its getting in the way of traveling.
+      Help her save enough to take off forever.
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 701
+  - levelID: 8
+    levelName: Ugh, Loans
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 70000
+    studentLoan: 10000
+    employerMatch: 0
+    tiles: 02000000010000000600000004000000
+    retirementDream: 2
+    minimumScore: 100
+    levelDescription: Ethan is terrified of his student loans. Help him!
+    isTutorial: 1
+    tutorialDescription: Student Loans Loans grow every year by 10% Pay off loans
+      by matching loan tiles
+    previousLevelID: 7
+  - levelID: 9
+    levelName: On Balance
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 100000
+    studentLoan: 100000
+    employerMatch: 2
+    tiles: 02000000010000000500000006000000
+    retirementDream: 4
+    minimumScore: 100
+    levelDescription: 'Charlotte earned a great job, but her degree cost her an enourmous
+      amount. She''s afraid she''ll never retire because of her debt. Prove her wrong. '
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 8
+  - levelID: 901
+    levelName: 'Challenge: Late Start'
+    timeMode: 0
+    startingAge: 30
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 0
+    employerMatch: 2
+    tiles: 02000000010000000500000004000000
+    retirementDream: 4
+    minimumScore: 100
+    levelDescription: Jamie did his best, but he's never been able to save money.
+      He's approaching 30 and he's getting worried. Is it too late to help him?
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 9
+  - levelID: 902
+    levelName: 'Challenge: Against Time'
+    timeMode: 1
+    startingAge: 22
+    retirementAge: 60
+    baseSalary: 80000
+    studentLoan: 50000
+    employerMatch: 0
+    tiles: 02000000010000000600000005000000
+    retirementDream: 4
+    minimumScore: 100
+    levelDescription: 'Harper slows down for no one. She''s got places to be and things
+      to do. In order to help her, you''ll have to keep up with her. '
+    isTutorial: 1
+    tutorialDescription: Time Based! Age progresses even when no match is made. So
+      match quickly!
+    previousLevelID: 901
+  - levelID: 1001
+    levelName: Mutual Fund Mastery
+    timeMode: 0
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 3500
+    studentLoan: 0
+    employerMatch: 2
+    tiles: 02000000010000000600000005000000
+    retirementDream: 4
+    minimumScore: 100
+    levelDescription: 'Michael doesn''t make much money working for a small non-profit,
+      but he thinks savvy saving can help him. Between the two of you, maybe he''ll
+      be ok. '
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 10
+  - levelID: 1002
+    levelName: Time Management Mastery
+    timeMode: 1
+    startingAge: 22
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 50000
+    employerMatch: 2
+    tiles: 02000000010000000600000004000000
+    retirementDream: 4
+    minimumScore: 100
+    levelDescription: 'Madison will retire to her own island. Don''t even think about
+      standing in her way. '
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 10
+  - levelID: 1003
+    levelName: Annuity Mastery
+    timeMode: 0
+    startingAge: 25
+    retirementAge: 65
+    baseSalary: 50000
+    studentLoan: 100000
+    employerMatch: 0
+    tiles: 02000000010000000600000005000000
+    retirementDream: 4
+    minimumScore: 100
+    levelDescription: Elijah believes that careful investment in annuities will help
+      him overcome his student loans. Can you make his belief come true?
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 10
+  - levelID: 10
+    levelName: Time Of Your Life
+    timeMode: 1
+    startingAge: 20
+    retirementAge: 75
+    baseSalary: 40000
+    studentLoan: 80000
+    employerMatch: 1
+    tiles: 02000000010000000600000005000000
+    retirementDream: 4
+    minimumScore: 100
+    levelDescription: 'Aiden leads a busy life, but maybe you can help him squeeze
+      in enough time to save for an amazing retirement. '
+    isTutorial: 0
+    tutorialDescription: 
+    previousLevelID: 9

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1853772847297480}
+  m_IsPrefabParent: 1
+--- !u!1 &1853772847297480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4603485644738992}
+  - component: {fileID: 114796187140122808}
+  m_Layer: 0
+  m_Name: BonusGameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4603485644738992
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1853772847297480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114796187140122808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1853772847297480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e5fa237d95435d4db3dde3e18ef1465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bonusPiecePrefabs:
+  - {fileID: 1770920758499676, guid: 7c41cc71436cb234a9feb9b6c51f1e78, type: 2}
+  - {fileID: 1572133321721468, guid: 310ee07b3019ae649a7a6d68228690a3, type: 2}
+  - {fileID: 1954090143735602, guid: 0d646fa3251f713418888387037d1cf6, type: 2}
+  - {fileID: 1912813645521258, guid: bd6006d1e21a19d41b1fa138ffc8a198, type: 2}
+  - {fileID: 1663256933556816, guid: 54b19a2bb4325df4789da04ec0dcfc20, type: 2}
+  - {fileID: 1271482495469320, guid: 6965466b9c16f5d47813b0f420e6a9bf, type: 2}
+  - {fileID: 1165523622369264, guid: 97c4b45badce30d4bbc9f8c8a00d6cbf, type: 2}
+  - {fileID: 1800331972097536, guid: 57d32f2aef79cbe469e56be15ec1df07, type: 2}
+  xRangeSpawn:
+  - -2.5
+  - 2.5
+  destroyLimit: -6
+  delayToStart: 1
+  m_sceneLoops:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_isReadyToBegin: 0
+  didGameStart: 0
+  isGameOver: 0
+  savingsLeft: 0
+  yearlyCostOfRetirement: 0
+  triangleCost: 0
+  currentTapStreak:
+    currentColor: 0
+    streak: 0
+  squarePieces: []
+  spawnDelay: 1
+  ageProgressionDelay: 3
+  isBonusFading: 0
+  currentScore: 0
+  squareScore: 0

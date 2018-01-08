@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1933297915119958}
+  m_IsPrefabParent: 1
+--- !u!1 &1933297915119958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4773774996402818}
+  - component: {fileID: 114761426451124726}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4773774996402818
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933297915119958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114761426451124726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1933297915119958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27fd2136252fe1a4880968bf98c8a6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  matchPerYear: 1
+  yearPerMatch: 1
+  currentMatchesCompleted: 0
+  happinessText: {fileID: 0}
+  happinessValue: 6
+  warningBorder: {fileID: 0}
+  negativeText: {fileID: 0}
+  incomePieceOnly: 0
+  incomeTileValue: 0
+  incomeScoreLabels:
+  - {fileID: 0}
+  - {fileID: 0}
+  savingsScoreLabels:
+  - {fileID: 0}
+  - {fileID: 0}
+  studentLoanScoreLabel: {fileID: 0}
+  withLoanUI: {fileID: 0}
+  noLoanUI: {fileID: 0}
+  timeLeftScoreText: {fileID: 0}
+  ageText: {fileID: 0}
+  retirementAgeText: {fileID: 0}
+  ageSavingsLeft: {fileID: 0}
+  ageSlider: {fileID: 0}
+  ageLeftSlider: {fileID: 0}
+  scoreTotalText: {fileID: 0}
+  topScoreText: {fileID: 0}
+  bottomScoreText: {fileID: 0}
+  noLoanScoreUI: {fileID: 0}
+  withLoanScoreUI: {fileID: 0}
+  totalSavedTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  finalRetiredAgeTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  loanAmtTexts:
+  - {fileID: 0}
+  gameStatScreen: {fileID: 0}
+  scoreContentScroll: {fileID: 0}
+  scorePrefabs:
+  - {fileID: 114292906745908612, guid: 00193bf0c457c3f4b938ca681c542426, type: 2}
+  - {fileID: 114976504825634234, guid: 7adfa49acfbf7fd43a0323d00a426bfc, type: 2}
+  - {fileID: 114364185719302700, guid: 6de59b51a67fd2c4594e7c5ec3b40096, type: 2}
+  - {fileID: 114030076692190402, guid: 85497207172a04d4887e62d58b9f8092, type: 2}
+  - {fileID: 114598263084147966, guid: 67d9aed3cddc8b146b04af0f68a8dd87, type: 2}
+  - {fileID: 114030402298737122, guid: 3de9bc5ff07c01440b0edcc8c2b8631c, type: 2}
+  - {fileID: 114852717528262446, guid: b0a898c2770a250418adf832676cca55, type: 2}
+  annuityScoreScreen: {fileID: 0}
+  annuitySavingText: {fileID: 0}
+  perYearText: {fileID: 0}
+  incomeAddScoreColor: {r: 0.051849037, g: 1, b: 0.058438666, a: 1}
+  incomeSubScoreColor: {r: 0.97794116, g: 0.043144446, b: 0.043144446, a: 1}
+  savingsAddScoreColor: {r: 0.48510766, g: 0.20815313, b: 0.5147059, a: 1}
+  incomeColor: {r: 0.007843138, g: 0.8000001, b: 0.6431373, a: 1}
+  expenseColor: {r: 0.91372555, g: 0.8078432, b: 0.18823531, a: 1}
+  savingsColor: {r: 0.42352945, g: 0.70980394, b: 0.8705883, a: 1}
+  loanColor: {r: 0.60784316, g: 0.43529415, b: 0.909804, a: 1}
+  scoreFlashDelay: 1
+  counterInc: 100
+  countTime: 1
+  totalCashOnHand: 0
+  totalSecondsToAge: 0
+  totalRetirementSavings: 0
+  totalStudentLoan: 0
+  totalSavingsMultiplier: 0
+  totalExpenses: 0
+  totalIncome: 0
+  totalAnnuity: 0
+  totalMutualFund: 0
+  totalSavings: 0
+  totalTIAA: 0
+  totalStudentLoanPayed: 0
+  totalExpenseCount: 0
+  totalIncomeCount: 0
+  totalAnnuityCount: 0
+  totalMutualFundCount: 0
+  totalSavingsCount: 0
+  totalTIAACount: 0
+  totalStudentLoanCount: 0
+  totalAnnuityDeposited: 0
+  totalTIAADeposited: 0
+  totalMutualFundDeposited: 0
+  totalSavingsDeposited: 0
+  allAnnuityMultipliers: []
+  allTIAAMultipliers: []
+  allMutualFundMultipliers: []
+  allSavingsMultipliers: []
+  scorePanel: {fileID: 0}
+  incomeScoreOffset: {x: -250, y: 0, z: 0}
+  savingsScoreOffset: {x: 250, y: 0, z: 0}
+  isScorePopupActive: 0

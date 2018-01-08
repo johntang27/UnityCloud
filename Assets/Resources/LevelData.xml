@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<LevelDataCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LevelData>
+    <Level>
+      <levelID>1</levelID>
+      <levelName>Tutorial 1</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>45</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>SavingsAccount</MatchValue>
+      </tiles>
+      <retirementDream>NaturalSolitude</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Emma has a new job and is ready to take on the world. She feels really good about retiring really early, and she probably doesn't even need your help...</levelDescription>
+      <isTutorial>true</isTutorial>
+      <tutorialDescription>how to make money (match income tiles)</tutorialDescription>
+      <previousLevelID>0</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>2</levelID>
+      <levelName>Tutorial 2</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>SavingsAccount</MatchValue>
+        <MatchValue>MutualFund</MatchValue>
+      </tiles>
+      <retirementDream>NaturalSolitude</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Emma was super wrong. She does need your help. This time, help her save some of her money over her life. </levelDescription>
+      <isTutorial>true</isTutorial>
+      <tutorialDescription>All investment products have multipliers</tutorialDescription>
+      <previousLevelID>1</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>3</levelID>
+      <levelName>Bigger Dreams</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>SavingsAccount</MatchValue>
+        <MatchValue>MutualFund</MatchValue>
+      </tiles>
+      <retirementDream>NaturalSolitude</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Olivia has big dreams for her future, but she isn't sure how to get there. Help her make her dreams come true.</levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>2</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>4</levelID>
+      <levelName>What's an Annuity?</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>SavingsAccount</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+      </tiles>
+      <retirementDream>NaturalSolitude</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Noah's parents forced him to open an annuity, but he's not really sure what it is. Help him take advantage of it so that he can retire in peace.</levelDescription>
+      <isTutorial>true</isTutorial>
+      <tutorialDescription>annuity turns into income per year after retirement</tutorialDescription>
+      <previousLevelID>3</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>401</levelID>
+      <levelName>Challenge: Retire Early</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>60</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+        <MatchValue>MutualFund</MatchValue>
+      </tiles>
+      <retirementDream>NaturalSolitude</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Sophia, help desk hero, is dead set on retiring early and running off to live in nature, where she never will have to deal with people again.</levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>4</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>5</levelID>
+      <levelName>Using Your Options</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+        <MatchValue>MutualFund</MatchValue>
+      </tiles>
+      <retirementDream>CountrysideComfort</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Ana knows she wants a large house in the countryside, and is willing to do what it takes to save up for it. Help her reach her dream.</levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>4</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>501</levelID>
+      <levelName>Challenge: Late Start</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>27</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>SavingsAccount</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+      </tiles>
+      <retirementDream>CountrysideComfort</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Liam hasn't thought about saving for retirement at all. Is it too late to start?</levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>5</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>6</levelID>
+      <levelName>Matchmaker</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>2</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>SavingsAccount</MatchValue>
+        <MatchValue>MutualFund</MatchValue>
+      </tiles>
+      <retirementDream>CityLuxury</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Mason's new employer will match part of his savings each year. He hopes this will help him move into a nice apartment in the city.</levelDescription>
+      <isTutorial>true</isTutorial>
+      <tutorialDescription>First 2 investment tiles matched each year are doubled.</tutorialDescription>
+      <previousLevelID>5</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>601</levelID>
+      <levelName>Challenge: Matching an Annuity</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>2</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+        <MatchValue>MutualFund</MatchValue>
+      </tiles>
+      <retirementDream>CityLuxury</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Isabella just moved to the city and she knows she never ever wants to leave. Help her save enough to stay for the rest of her life. </levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>6</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>602</levelID>
+      <levelName>Challenge: Early Luxury</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>59</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+        <MatchValue>MutualFund</MatchValue>
+      </tiles>
+      <retirementDream>CityLuxury</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Jacob loves friends, parties, food, and nightlife, but his job keeps getting in the way. His new plan is to retire early so that he can focus on the fun. </levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>601</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>7</levelID>
+      <levelName>Better Choices</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>SavingsAccount</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+      </tiles>
+      <retirementDream>NonStopTravel</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>The more Mia travels, the more she wants to visit every corner of the world. Her dream is expensive, but with your help, it may be attainable. </levelDescription>
+      <isTutorial>true</isTutorial>
+      <tutorialDescription>TIAA Annuity: bonus payment. The sooner you start, the bigger the bonus.</tutorialDescription>
+      <previousLevelID>6</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>701</levelID>
+      <levelName>Challenge: Abundant Annuities</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+      </tiles>
+      <retirementDream>NonStopTravel</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Will never paid attention to opening retirement accounts, but his parents did help him invest in an annuity. He just wants to see the world. </levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>7</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>702</levelID>
+      <levelName>Challenge: Nonstop </levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>50</retirementAge>
+      <baseSalary>100000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+        <MatchValue>MutualFund</MatchValue>
+      </tiles>
+      <retirementDream>NonStopTravel</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Emily has an amazing job, but its getting in the way of traveling. Help her save enough to take off forever.</levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>701</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>8</levelID>
+      <levelName>Ugh, Loans</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>70000</baseSalary>
+      <studentLoan>10000</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>StudentLoan</MatchValue>
+        <MatchValue>MutualFund</MatchValue>
+      </tiles>
+      <retirementDream>CityLuxury</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Ethan is terrified of his student loans. Help him!</levelDescription>
+      <isTutorial>true</isTutorial>
+      <tutorialDescription>Student Loans Loans grow every year by 10% Pay off loans by matching loan tiles</tutorialDescription>
+      <previousLevelID>7</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>9</levelID>
+      <levelName>On Balance</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>100000</baseSalary>
+      <studentLoan>100000</studentLoan>
+      <employerMatch>2</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+        <MatchValue>StudentLoan</MatchValue>
+      </tiles>
+      <retirementDream>IslandParadise</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Charlotte earned a great job, but her degree cost her an enourmous amount. She's afraid she'll never retire because of her debt. Prove her wrong. </levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>8</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>901</levelID>
+      <levelName>Challenge: Late Start</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>30</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>2</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+        <MatchValue>MutualFund</MatchValue>
+      </tiles>
+      <retirementDream>IslandParadise</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Jamie did his best, but he's never been able to save money. He's approaching 30 and he's getting worried. Is it too late to help him?</levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>9</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>902</levelID>
+      <levelName>Challenge: Against Time</levelName>
+      <timeMode>RealTime</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>60</retirementAge>
+      <baseSalary>80000</baseSalary>
+      <studentLoan>50000</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>StudentLoan</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+      </tiles>
+      <retirementDream>IslandParadise</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Harper slows down for no one. She's got places to be and things to do. In order to help her, you'll have to keep up with her. </levelDescription>
+      <isTutorial>true</isTutorial>
+      <tutorialDescription>Time Based! Age progresses even when no match is made. So match quickly!</tutorialDescription>
+      <previousLevelID>901</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>1001</levelID>
+      <levelName>Mutual Fund Mastery</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>3500</baseSalary>
+      <studentLoan>0</studentLoan>
+      <employerMatch>2</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>StudentLoan</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+      </tiles>
+      <retirementDream>IslandParadise</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Michael doesn't make much money working for a small non-profit, but he thinks savvy saving can help him. Between the two of you, maybe he'll be ok. </levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>10</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>1002</levelID>
+      <levelName>Time Management Mastery</levelName>
+      <timeMode>RealTime</timeMode>
+      <startingAge>22</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>50000</studentLoan>
+      <employerMatch>2</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>StudentLoan</MatchValue>
+        <MatchValue>MutualFund</MatchValue>
+      </tiles>
+      <retirementDream>IslandParadise</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Madison will retire to her own island. Don't even think about standing in her way. </levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>10</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>1003</levelID>
+      <levelName>Annuity Mastery</levelName>
+      <timeMode>TurnBased</timeMode>
+      <startingAge>25</startingAge>
+      <retirementAge>65</retirementAge>
+      <baseSalary>50000</baseSalary>
+      <studentLoan>100000</studentLoan>
+      <employerMatch>0</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>StudentLoan</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+      </tiles>
+      <retirementDream>IslandParadise</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Elijah believes that careful investment in annuities will help him overcome his student loans. Can you make his belief come true?</levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>10</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+    <Level>
+      <levelID>10</levelID>
+      <levelName>Time Of Your Life</levelName>
+      <timeMode>RealTime</timeMode>
+      <startingAge>20</startingAge>
+      <retirementAge>75</retirementAge>
+      <baseSalary>40000</baseSalary>
+      <studentLoan>80000</studentLoan>
+      <employerMatch>1</employerMatch>
+      <tiles>
+        <MatchValue>Income</MatchValue>
+        <MatchValue>Expense</MatchValue>
+        <MatchValue>StudentLoan</MatchValue>
+        <MatchValue>AnnuityTIAA</MatchValue>
+      </tiles>
+      <retirementDream>IslandParadise</retirementDream>
+      <minimumScore>100</minimumScore>
+      <levelDescription>Aiden leads a busy life, but maybe you can help him squeeze in enough time to save for an amazing retirement. </levelDescription>
+      <isTutorial>false</isTutorial>
+      <tutorialDescription />
+      <previousLevelID>9</previousLevelID>
+      <unlockingMastery>None</unlockingMastery>
+    </Level>
+  </LevelData>
+</LevelDataCollection>

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1201467619472016}
+  m_IsPrefabParent: 1
+--- !u!1 &1201467619472016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4213961815416824}
+  - component: {fileID: 114405011020353764}
+  - component: {fileID: 114966323969267512}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4213961815416824
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201467619472016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114405011020353764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201467619472016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51bdb8e28fb2ef942b15dee9dc8270b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstScene: {fileID: 0}
+  isTurnBased: 1
+  avatar: {fileID: 0}
+  currentAge: 22
+  retirementAge: 65
+  savingsLeftAge: 65
+  secondsToAgeUp: 3
+  bonusSecondsAdded: 0
+  gameTimer: 0
+  monthlyIncome: 50000
+  gameGoalDesc: Connect tiles to save $1 Million!
+  gameGoalText: {fileID: 0}
+  delayToStart: 0.5
+  delayToSetupBoard: 2
+  delayToEndGame: 2
+  gameOverPanel: {fileID: 0}
+  messageText: {fileID: 0}
+  screenFader: {fileID: 0}
+  messageWindow: {fileID: 0}
+  startIcon: {fileID: 21300000, guid: f6e3620029eff0a4086ec83178dda386, type: 3}
+  endIcon: {fileID: 21300000, guid: ab66c5e56ebe7db4d9be109f6f1a7773, type: 3}
+  m_isStartingGame: 0
+  isPaused: 0
+  timeToAgeUp: 0
+--- !u!114 &114966323969267512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1201467619472016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2450abca8cadfa2498d5eb1e3fd5de35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelStars: 0
+  movesLeft: 0
+  timeLeft: 0
+  retirementAgeGoal: 0

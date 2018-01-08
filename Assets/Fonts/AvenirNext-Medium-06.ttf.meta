@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: b9ae4de4697dac145a55dd667b9895fc
+timeCreated: 1510954679
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Avenir Next
+  fontNames:
+  - Avenir Next
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 43d1db421eb006746afbacbb4651502f, type: 3}
+  - {fileID: 12800000, guid: 222f44e3f0ee63845aab6bf124fb7516, type: 3}
+  - {fileID: 12800000, guid: 2a4f1ca57272d2249837ba55c3a32c4e, type: 3}
+  - {fileID: 12800000, guid: 4b8523262a2e39b499805bf9718f0e77, type: 3}
+  - {fileID: 12800000, guid: 81525077e455535419ce7c651d3c5d8b, type: 3}
+  - {fileID: 12800000, guid: 13411a87bcc97e54d85530dc2ce23991, type: 3}
+  - {fileID: 12800000, guid: 787a012833eeabc4b97a4c7cf9f887f7, type: 3}
+  - {fileID: 12800000, guid: 0874ac0b525457c4bafa0085f7f33258, type: 3}
+  - {fileID: 12800000, guid: b867617ef21c6c14d9b3f71030c1fd19, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

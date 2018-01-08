@@ -1,0 +1,7 @@
+Library/
+ProjectSettings/
+Temp/
+.vs/
+moneybin_proto.csproj
+moneybin_proto.sln
+# remember to check for *.meta files arent ignored in gitignore_global in Docs folder
